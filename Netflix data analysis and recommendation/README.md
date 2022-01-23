@@ -4,11 +4,13 @@
 
 **DATASET** : Kaggle link [here](https://www.kaggle.com/shivamb/netflix-shows)
 
-## EXPLORATORY DATA ANALYSIS
+## Exploratory Data Analysis
 - explored the dataset and handeled missing values in suitable manner.
 - Cleaned and manipulated the data to perform Exploratory data analysis.
 - Some Data visualization techniques were applied and inferences about the dataset were drawn.
 - predictive models were built using some standard machine learning algorithms and built a content based predictive system.
+
+## Model
 
 - Simple plot(description) based Recommendation System
   
