@@ -6,7 +6,7 @@ Created and compared different models that will predict whether or not they will
 ## Dataset
 Dataset can be downloaded from [here](https://www.kaggle.com/tbyrnes/advertising)
 
-**WHAT I HAD DONE**
+**WHAT I HAVE DONE**
 - Discussed some major columns on which Advertisement Success depends.
 - Handling outliers of diagnosis columns. As, it is very important because at last we're predicting success rate of Advertisement.
 - Then I used different classification models to train the model.
