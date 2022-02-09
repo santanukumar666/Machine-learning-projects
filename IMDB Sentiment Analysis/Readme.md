@@ -5,8 +5,6 @@
 **GOAL** 
 - The main purpose of this project is to predict the sentiment of movie reviews on IMDB.
 
-**DATASET**
-- The data used in this project can be downloaded from [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 **WHAT I HAD DONE**
 - Performed Exploratory Data Analysis on text data.
@@ -14,23 +12,6 @@
 - Performed Text cleaning on the reviews text data.
 - Removed stopwords, HTML strips and tags and noise from data.
 - Built multiple models like LSTM, BERT, LinearSVC and compared them to get best results.
-
-
-**MODELS USED**
-
-
-| Model | Train Score | Test Score |
-| :---: | :---: | :---: |
-| LSTM | 0.9319 | 0.8766 |
-| LinearSVC | 0.9884 | 0.8952 |
-
-## Wordclouds from movie reviews :
-
-### Positive Reviews
-![](https://github.com/shivani6320/ML-ProjectKart/blob/sentiment_analysis/IMDB%20Sentiment%20Analysis/Images/positive.png?raw=true)
-
-### Negative Reviews
-![](https://github.com/shivani6320/ML-ProjectKart/blob/sentiment_analysis/IMDB%20Sentiment%20Analysis/Images/negative.png?raw=true)
 
 
 **LIBRARIES NEEDED**
@@ -44,6 +25,24 @@
 - re
 - NLTK
 
+
+**MODELS USED**
+
+
+| Model | Train Score | Test Score |
+| :---: | :---: | :---: |
+| LSTM | 0.9319 | 0.8766 |
+| LinearSVC | 0.9884 | 0.8952 |
+
+## Wordclouds from movie reviews :
+
+### Positive Reviews
+![posituve](https://user-images.githubusercontent.com/60546202/153137028-ac7106e4-9522-4548-8a90-88b6e585ca54.png)
+
+### Negative Reviews
+![negative](https://user-images.githubusercontent.com/60546202/153137006-78ebb513-2850-4fb1-924f-467b5e367d63.png)
+
+
 **CONCLUSION**
 - Text cleaning performs major role in improvinh model performance to get better results.
-- After comparing multiple models, **BERT** Model gives the best performance with 90% test accuracy.
+
